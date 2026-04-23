@@ -71,3 +71,8 @@ main img { float: left;
 main ul { list-style-position: inside; }
 .clear { clear: both; }
 header, nav, main, footer { display: block; }
+
+Amaya.png {
+  position: relative;
+  top: -5px; 
+}
