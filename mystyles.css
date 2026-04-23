@@ -76,3 +76,7 @@ Amaya.png {
   position: relative;
   top: -5px; 
 }
+
+.flex-container {
+  display: flex; /* Enables flexbox */
+}
