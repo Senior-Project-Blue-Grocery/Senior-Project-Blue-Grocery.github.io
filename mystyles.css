@@ -64,10 +64,11 @@ main { padding-left: 20px;
         padding-top: 1px;
         padding-bottom: 1px;
 }
-main img { float: left;
+/* main img { float: left;
            padding-right: 20px;
            padding-bottom: 20px;
 }
+*/
 main ul { list-style-position: inside; }
 .clear { clear: both; }
 header, nav, main, footer { display: block; }
@@ -81,4 +82,13 @@ Amaya.png {
     display: flex;          /* Lines up children horizontally */
     gap: 20px;              /* Adds space between each image-caption set */
     justify-content: center; /* Centers the whole row on the page */
+  }
+
+ figure {
+    text-align: center;     /* Centers caption under the image */
+    margin: 0;              /* Removes default browser margins */
+  }
+  img {
+    max-width: 200px;       /* Set a consistent size */
+    height: auto;
   }
