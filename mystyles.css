@@ -77,6 +77,8 @@ Amaya.png {
   top: -5px; 
 }
 
-.flex-container {
-  display: flex; /* Enables flexbox */
-}
+.image-container {
+    display: flex;          /* Lines up children horizontally */
+    gap: 20px;              /* Adds space between each image-caption set */
+    justify-content: center; /* Centers the whole row on the page */
+  }
